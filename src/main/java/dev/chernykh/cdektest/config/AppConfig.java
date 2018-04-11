@@ -1,4 +1,4 @@
-package dev.chernykh.delivery.config;
+package dev.chernykh.cdektest.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -16,7 +16,7 @@ import org.springframework.web.servlet.view.JstlView;
 import java.util.Locale;
 
 @Configuration
-@ComponentScan({"dev.chernykh.delivery"})
+@ComponentScan({"dev.chernykh.cdektest"})
 @EnableWebMvc
 @PropertySource("classpath:application.properties")
 public class AppConfig extends WebMvcConfigurerAdapter {

@@ -1,4 +1,4 @@
-package dev.chernykh.delivery.config;
+package dev.chernykh.cdektest.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import java.util.Properties;
 
 @Configuration
-@EnableJpaRepositories("dev.chernykh.delivery")
+@EnableJpaRepositories("dev.chernykh.cdektest")
 @EnableTransactionManagement
 @EnableSpringDataWebSupport
 public class PersistenceConfig {
@@ -40,7 +40,7 @@ public class PersistenceConfig {
         
         LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
         factory.setJpaVendorAdapter(vendorAdapter);
-        factory.setPackagesToScan("dev.chernykh.delivery");
+        factory.setPackagesToScan("dev.chernykh.cdektest");
         factory.setJpaProperties(jpaProperties());
         factory.setDataSource(dataSource());
         return factory;

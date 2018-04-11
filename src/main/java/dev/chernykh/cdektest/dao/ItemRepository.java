@@ -1,6 +1,6 @@
-package dev.chernykh.delivery.dao;
+package dev.chernykh.cdektest.dao;
 
-import dev.chernykh.delivery.entities.Item;
+import dev.chernykh.cdektest.entities.Item;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;

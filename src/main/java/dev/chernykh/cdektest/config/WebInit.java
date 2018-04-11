@@ -1,4 +1,4 @@
-package dev.chernykh.delivery.config;
+package dev.chernykh.cdektest.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

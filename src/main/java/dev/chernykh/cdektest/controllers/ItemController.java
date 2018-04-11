@@ -1,8 +1,8 @@
-package dev.chernykh.delivery.controllers;
+package dev.chernykh.cdektest.controllers;
 
-import dev.chernykh.delivery.dao.ItemRepository;
-import dev.chernykh.delivery.dto.ItemForm;
-import dev.chernykh.delivery.entities.Item;
+import dev.chernykh.cdektest.dao.ItemRepository;
+import dev.chernykh.cdektest.dto.ItemForm;
+import dev.chernykh.cdektest.entities.Item;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

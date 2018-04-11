@@ -1,4 +1,4 @@
-package dev.chernykh.delivery.entities;
+package dev.chernykh.cdektest.entities;
 
 
 import lombok.Data;

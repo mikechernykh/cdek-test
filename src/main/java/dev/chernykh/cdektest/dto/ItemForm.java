@@ -1,8 +1,8 @@
-package dev.chernykh.delivery.dto;
+package dev.chernykh.cdektest.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import dev.chernykh.delivery.entities.Item;
+import dev.chernykh.cdektest.entities.Item;
 import org.hibernate.validator.constraints.NotBlank;
 
 @Data
